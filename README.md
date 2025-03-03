@@ -1,4 +1,4 @@
-# Install TensorFlow GPU on WSL2 Ubuntu 24.04 (Windows 10/11) | CUDA, cuDNN, TensorRT & PyTorch -- GPU
+# Install TensorFlow GPU on WSL2/Ubuntu 24.04 (Windows 10/11) | CUDA, cuDNN, TensorRT & PyTorch -- GPU
 
 ## Prerequisites
 Ensure you have the latest version of WSL2 and Ubuntu 24.04 installed. Also, make sure you have Windows 10/11 with the latest updates.
