@@ -1,5 +1,4 @@
-# Tensorflow-Torch-CUDA-WSL-22.04 -- GPU
-# Install TensorFlow GPU on WSL2 Ubuntu 24.04 (Windows 10/11) | CUDA, cuDNN, TensorRT & PyTorch
+# Install TensorFlow GPU on WSL2 Ubuntu 24.04 (Windows 10/11) | CUDA, cuDNN, TensorRT & PyTorch -- GPU
 
 ## Prerequisites
 Ensure you have the latest version of WSL2 and Ubuntu 24.04 installed. Also, make sure you have Windows 10/11 with the latest updates.
@@ -159,7 +158,7 @@ jupyter lab
 
 ## Step 9: Install PyTorch with GPU Support
 ```bash
-conda install pytorch torchvision torchaudio cudatoolkit=12.1 -c pytorch -y
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
 ```
 
 Verify PyTorch installation:
